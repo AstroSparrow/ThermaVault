@@ -11,12 +11,12 @@ const int rgbB = 9;
 const int LEDR = 7;
 const int PEIZO = 13;
 
-// --- LCD connections: RS=A1, EN=D6, D4=D2, D5=D3, D6=D4, D7=D5 ---
+//LCD connections: RS=A1, EN=D6, D4=D2, D5=D3, D6=D4, D7=D5
 LiquidCrystal lcd(A1, 6, 2, 3, 4, 5);
 
 DHT currtemp(TEMPSENS, DHTTYPE);
 
-// --- Startup Melody ---
+//Startup Melody :D
 #define NOTE_C4  262
 #define NOTE_G3  196
 #define NOTE_A3  220
@@ -25,7 +25,7 @@ DHT currtemp(TEMPSENS, DHTTYPE);
 int melody[] = { NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4 };
 int noteDurations[] = { 4, 8, 8, 4, 4, 4, 4, 4 };
 
-// --- Functions ---
+//Functions
 void coolingAlert() {
   tone(PEIZO, 800, 150);
   delay(180);
@@ -59,7 +59,7 @@ void setup() {
 
   currtemp.begin();
 
-  // --- LCD Initialization ---
+  //LCD Initialization Phase
   lcd.begin(16, 2);
   delay(100);
   lcd.clear();
@@ -69,7 +69,7 @@ void setup() {
   lcd.print("Hello World! :D");
   delay(2000);
 
-  // --- LED Startup Animation ---
+  //LED Startup Animation
   digitalWrite(rgbB, HIGH); delay(1000);
   digitalWrite(rgbB, LOW);  digitalWrite(rgbG, HIGH); delay(1000);
   digitalWrite(rgbG, LOW);  digitalWrite(LEDR, HIGH); delay(1000);
@@ -82,7 +82,6 @@ void setup() {
   lcd.clear();
 }
 
-// --- Main Loop ---
 void loop() {
   float anvalue = analogRead(POT);
   float tempsetting = map(anvalue, 0, 1023, 0, 30);
@@ -104,8 +103,6 @@ void loop() {
   Serial.print("Current Humidity = ");
   Serial.println(Hum);
 
-  // --- LCD Display ---
-  // --- LCD Display ---
 lcd.clear();
 lcd.setCursor(0, 0);
 lcd.print("Set:");
@@ -121,7 +118,7 @@ lcd.print("C");
 
   lcd.setCursor(0, 1);
 
-  // --- Cooling Logic ---
+  // Main Cooling Logic
   if (tempsetting < Temp) {
     digitalWrite(RELAY2, LOW);
     digitalWrite(RELAY1, LOW);
@@ -144,3 +141,5 @@ lcd.print("C");
   digitalWrite(rgbG, LOW);
   digitalWrite(LEDR, LOW);
 }
+
+//The End! (For now :D)
