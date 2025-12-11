@@ -269,6 +269,7 @@ void loop() {
   digitalWrite(RELAY1, LOW);
 
   unsigned long now = millis();
+  coolingAlert();
 
   if (relay2State) {
     if (now - lastRelayToggle >= onTime) {
