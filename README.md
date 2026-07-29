@@ -10,22 +10,27 @@ I later decided to make it my Final Year School project aswell, Whose document y
 
 ----
 ## Evolution of ThermaVault
-![ThermaVault v0.1](Images/ThermaVaultv0.1.png)
+<a href="Images/ThermaVaultv0.1.png">
+    <img src="Images/ThermaVaultv0.1.png" width="220">
+</a>
 
 **ThermaVault v0.1,**
 Basically just a proof of concept, bare-bones Peltier Module hooked up to a Car battery
 
-![ThermaVault v0.4](Images/ThermaVaultv0.4.png)
+<a href="Images/ThermaVaultv0.4.png">
+    <img src="Images/ThermaVaultv0.4.png" width="220">
+</a>
 
 **ThermaVault v0.4,**
 The first Arduino Controlled Prototype with an LCD Display and a Basic Fan cooling system
 
-![ThermaVault v0.8 at WISF-2026](Images/ThermaVaultv0.8.png)
+<a href="Images/ThermaVaultv0.8.png">
+    <img src="Images/ThermaVaultv0.8.png" width="220">
+</a>
 
-**ThermaVault v0.8**
-
-(The latest iteration on display at the National Level of Western India Science Fair - 2025.
-Featuring Wireless monitoring, Better Arduino control with Power saving modes, and a Water-based cooling system)
+**ThermaVault v0.8,**
+The latest iteration on display at the National Level of Western India Science Fair - 2025.
+Featuring Wireless monitoring, Better Arduino control with Power saving modes, and a Water-based cooling system
 
 ## Current Features
 - Able to maintain a certain user set Temperature in it's internal Volume
