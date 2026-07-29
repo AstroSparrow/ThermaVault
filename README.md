@@ -53,7 +53,7 @@ Featuring Wireless monitoring, Better Arduino control with Power saving modes, a
 - Cooling Systems: TEC1-12706 (4cm * 4cm Peltier Module), Water/Radiator Based cooling system
 - Power Systems: 20W Solar Panel, 12v Lead-Acid Battery, Solar Charge Controller
 - Compute Systems: Arduino UNO R3
-- Temperature Sensors: DHT11 and DS18B20
+- Temperature Sensors: DHT11, DS18B20 and NTC Thermistors
 - Control Interfaces:
     - HC-05 Bluetooth Module + ThermaVault Application
     - USB Serial Communication
