@@ -32,6 +32,13 @@ The first Arduino Controlled Prototype with an LCD Display and a Basic Fan cooli
 The latest iteration on display at the National Level of Western India Science Fair - 2025.
 Featuring Wireless monitoring, Better Arduino control with Power saving modes, and a Water-based cooling system
 
+**Circuit Diagram:**
+
+<a href="Images/ThermaVault-Circuit_Schematic.svg">
+<img src="Images/ThermaVault-Circuit_Schematic.svg" width="220">
+</a>
+
+
 ## Current Features
 - Able to maintain a certain user set Temperature in it's internal Volume
 - Features a custom-built Water cooling system for a TEC1-12706 (4cm * 4cm Peltier Module)
