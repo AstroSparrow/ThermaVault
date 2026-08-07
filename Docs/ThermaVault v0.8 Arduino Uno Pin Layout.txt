@@ -1,0 +1,13 @@
+ThermaVault v0.8 Arduino UNO R3 Pin Layout:
+
+D0 RX -> HC-05 TX
+D1 TX -> HC-05 RX
+D2 -> WS2812 NeoPixel LED Array IN
+D9 -> Peltier/Pump Relay Coil
+D10 -> Cooling Fan Relay Coil
+D12 -> DHT-11 Data Pin
+D13 -> Buzzer +ve
+
+A0 -> Manual Temperature Set Potentiometer Wiper
+A1 -> Voltage Sensor Signal Pin
+A2 -> NTC-Thermistor + Voltage Divider

@@ -1,0 +1,28 @@
+Custom Water Loop Layout:
+
+Water Reservoir
+
+     │
+     ▼
+
+Water Pump
+
+     │
+     ▼
+
+HeatSink on Peltier
+
+     │
+     ▼
+
+Radiator on Cooling Fan
+
+     │
+     ▼
+
+Cooling Fan
+
+     │
+     ▼
+
+Back to Pump

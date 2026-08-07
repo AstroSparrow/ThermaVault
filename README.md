@@ -71,5 +71,7 @@ Featuring Wireless monitoring, Better Arduino control with Power saving modes, a
 This project is licensed under the MIT License. I would be honoured to receive any Suggestions/Improvements for the Project :)
 
 
+(You can find more documents regarding the project under the folder Docs)
+
 **Made with love by Yours Truly!**
 _**Thanks a ton for your time! :D**_
